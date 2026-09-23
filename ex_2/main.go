@@ -10,7 +10,6 @@ func main() {
 	fmt.Println("fibonacci:", fibonacci(5))
 }
 
-// 1. Viết recursive function sumTo(n) tính 1+...+n.
 func sumTo(n int) int {
 	if n == 0 {
 		return 0
@@ -18,7 +17,6 @@ func sumTo(n int) int {
 	return n + sumTo(n-1)
 }
 
-// 2. Viết recursive function countdown(n) in từ n về 1.
 func countdown(n int) int {
 	if n == 0 {
 		return 1
@@ -27,7 +25,6 @@ func countdown(n int) int {
 	return countdown(n - 1)
 }
 
-// 3. Viết 2 bai tap tren bang phiên bản Fibonacci co vòng lặp để so sánh. viet giong vi du ben duoi
 func fibonacci(n int) int {
 	if n == 0 {
 		return 0
